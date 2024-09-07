@@ -58,17 +58,6 @@ public class Libro {
         this.prestado = prestado;
     }
 
-    @Override
-    public String toString() {
-        return "Libro{" +
-                "isbn='" + isbn + '\'' +
-                ", titulo='" + titulo + '\'' +
-                ", numPaginas=" + numPaginas +
-                ", autor='" + autor + '\'' +
-                ", prestado=" + prestado +
-                '}';
-    }
-
     public void prestar (){
         if(!this.isPrestado()){
             this.setPrestado(true);
