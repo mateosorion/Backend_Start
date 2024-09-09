@@ -8,17 +8,23 @@ public class Main {
         Asus.transferirArch(50);
         Asus.eliminarArch(30);
         Asus.encender();
+        String tostring = Asus.toString();
+        System.out.println(tostring);
         Asus.transferirArch(50);
-        System.out.println(Asus.getEspacioUsado());
+        tostring = Asus.toString();
+        System.out.println(tostring);
         Asus.eliminarArch(30);
-        System.out.println(Asus.getEspacioUsado());
+        tostring = Asus.toString();
+        System.out.println(tostring);
         Asus.transferirArch(300);
-        System.out.println(Asus.getEspacioUsado());
+        tostring = Asus.toString();
+        System.out.println(tostring);
         Asus.eliminarArch(500);
-        System.out.println(Asus.getEspacioUsado());
+        tostring = Asus.toString();
+        System.out.println(tostring);
         Asus.apagar();
-
-
+        tostring = Asus.toString();
+        System.out.println(tostring);
 
 
     }

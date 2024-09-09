@@ -1,5 +1,4 @@
 package Ej2;
-
 public class Ordenador {
 
     private String marca;
@@ -80,6 +79,17 @@ public class Ordenador {
         this.encendido = encendido;
     }
 
+    public String toString() {
+        return "Ordenador{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", ram=" + ram +
+                ", disco=" + disco +
+                ", espacioUsado=" + espacioUsado +
+                ", encendido=" + encendido +
+                '}';
+    }
+
     public void encender(){
         this.encendido = true;
     }
@@ -112,3 +122,5 @@ public class Ordenador {
         }
     }
 }
+
+
