@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Ordenador Asus = new Ordenador("Asus","Zenbook",8,256);
-        //util
+
         Asus.transferirArch(50);
         Asus.eliminarArch(30);
         Asus.encender();
