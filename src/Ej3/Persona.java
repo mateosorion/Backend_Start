@@ -99,6 +99,8 @@ public class Persona {
         this.direccion = direccion;
     }
 
+    //to string
+
     @Override
     public String toString() {
         return "Persona{" +
