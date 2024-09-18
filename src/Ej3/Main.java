@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Persona: " + personas.get(0));  //Obtener
         System.out.println("Persona: " + personas.get(1));  //Obtener
 
-        personas.remove(0);  //Eliminar
+        personas.remove(0);  //Eliminar.
 
         System.out.println("Persona: " + personas.get(0));  //Obtener
 
